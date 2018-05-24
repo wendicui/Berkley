@@ -1,0 +1,7 @@
+1. I changed the hasMoreelement function to return (m_ptr + 1) != 0 ; It gave me java.lang.ArrayIndexOutOfBoundsException: -1.
+
+2. I think if there needs to be communications between classes that is irrelevant to other classes, they can be put into the same package. If there is a component only relative to a certain class, but not the other classes in the same package, it is a better idea to put it as a nested class, which reduces confusion and is more safe.
+
+3. There are some variables that can only be accessed by certain users or be changed only in the designed ways(like in a method).  Private variables allow such conditions to happen. Go all public is like green light on all directions, which has a higher chance to create bugs.
+
+4. It could also be used to serve as methods of a class, which unlike constructor, returns stuff. Because of the type-safe feature of java, overloaded functions allow different types of input and goes beyond that, which allows for different numbers of input.

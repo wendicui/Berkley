@@ -1,0 +1,16 @@
+1. Both Local variable and global variables have their benefits. A local variable has its own life frame, which means it only lives with a specific value in that frame. Other frame can also have variable with the same name, but they are not the same entity. Kind of like two person in different countries but both named John Lee.
+
+A global variable  however, can be access in all the ‘frames’. Unlike the two person example in local variable, ‘current president of the USA’ might be more of a global variable.
+
+The combination of local and global variable enables reuse of name, distinction of data, and reduce mistakes.
+
+
+2. It can make data more organized. So when people have a variable, people will know what it can do based on one’s needs and what they should do to achieve the next step.
+
+One shortcoming I can think of is more lines of coding needed than more flexible languages. Coder has to ensure the correctness of types, which might take more time, like writing an formal article without spelling checking. After some research I learned that it will also take more time for compilation.
+
+
+3. I have com across quick sort. Similar sorting algorithm as merge sort, bubble sort, comb sort etc. I am surprised by the number of sorting algorithms out there.
+
+
+4. I would consider the average time and space it takes to solve a problem as the guideline of efficiency. Another feature worth considering is the fluctuation of the best performance and worst performance.

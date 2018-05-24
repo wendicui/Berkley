@@ -1,0 +1,8 @@
+1. I think Beans API makes it easier by involving and bridging with operating system and development environment, for example generating code that can call methods.  It enhances the portability Java presents.
+
+Using Beans API can allow users to make only the necessary connections, instead of inspect each one of them multiple times.
+
+
+2. JDBC will require loading the class for the specific database to interact with, which will then gain connection to the database, like building a road. The driver also communicate with database and help making queries.
+
+3.One thing I found not intuitive is not being able to acquire the lowest level type of an object automatically. For example an Object which on the lowest level is an Integer, which Javascript accomplishes. I understand it is part of the strong-type feature that Java presents. Just like auto-boxing, it will be nice if this feature can be implemented.

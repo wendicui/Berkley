@@ -1,0 +1,8 @@
+1. I think using Socket class can make it happen.
+
+2. File class provide the directory of that file. So we can get directory there. Besides, a file has only one directory, but in a directory there can be multiple files. If we have Directory class, not File class, it will make the manipulation of files more complicated.
+
+Unfortunately I can not think of a better design. Any ideas?
+
+3.InputStream-based classes takes data by byte, which can be used for image, sound data;
+ Whereas Reader handles character well. If it is all text, then Reader is a good choice.

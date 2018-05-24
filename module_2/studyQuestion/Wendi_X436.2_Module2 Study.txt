@@ -1,0 +1,7 @@
+1. Using == with compare the two object regarding their reference, namely whether they are pointing to the same string. The equals() however target at the values of the objects and compare those.
+
+
+2. A empty string is actually a string, so we can use .length() on it and it will return 0; Null however means nothing. Running methods on it will return null.
+
+
+3. “ Deprecated “ means it is valid to use it but not suggested to and there is a newer way to achieve the same thing. I did not realize about this until doing some google, the “for each… in” is deprecated now and could be replaced by “for …. of “ because of the new update on firefox 57. Is was around for 7 years and removed in 2004.

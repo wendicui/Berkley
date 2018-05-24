@@ -1,0 +1,9 @@
+1. It ensure that the documents will work and also present clear information regarding what to expect.
+
+2. They are suitable of different occasions, like different knives for chef. Tree-based parser requires less coding but more memory space. Event-based parser needs more coding but is more memory-efficient.
+
+3.I googled the answer. We can encode the data with base 64 scheme and put the data into Base64 element .
+
+4.I think DTD can describe all kinds of data. Although it is bit tricky when coming to numbers, int, long etc.
+
+5.It is because HTML is better for people reading the data, but not so much in terms of information exchange. For example DTD will be a great improvement which HTML does not provide.

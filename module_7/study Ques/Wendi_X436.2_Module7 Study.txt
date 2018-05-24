@@ -1,0 +1,9 @@
+1. We can declare the exception of superclass. But chances are that we might loose information that can help us debug in the future. So it is generally better practice to call the exact types.
+
+2. Yes RuntimeException can be caught. Yet considering that most of the time there is not so much we can react to fix it, so it does not make much sense. Once exception is NullPointerExcetion to identify where user doesn't call the function in a correct way.
+
+3. If a method can manipulate a exception, it is good to catch it, whether to cover or add more information. Otherwise propagation is a good choice to wait for the right moment.
+
+4.Yes, the fact that scheduling depends on platform do harm to java's portability. However, coder can prepare the worst case by assuming a thread could be preempted at any time;
+  Since it is the virtual machine that decides scheduling based on algorithms, the precise  algorithm could be worked out theoretically. 
+

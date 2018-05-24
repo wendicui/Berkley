@@ -1,0 +1,8 @@
+1. Interface is good when we want files with not close related to implement similar behavior. 
+   For abstract class, classes implementing them have a closer relationship. Another benefit of abstract class is that for the shared components, they could be declared and implemented within the abstract class, so that other classes implementing it will save some trouble. Such feature is not available for interface.
+
+2. We can use final methods to avoid unwanted changes or potential bugs. Final classes is good when we do not want it to be extended. Neither abstract class and interface can be final. The purpose of abstract class and interface is to be extended. Claiming final will do the contrary. 
+
+3.If the two methods are identical there will not be a problem; if anything about this two methods are not the same, there will be a compile error.
+
+4. If the return type for subclass is more specific than that of superclass, then it is allowed. If different argument types is provided, it is overloading instead of overriding.

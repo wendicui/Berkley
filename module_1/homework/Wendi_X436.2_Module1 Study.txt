@@ -1,0 +1,20 @@
+1. First I used JDK, the diagnostics helped in locating where the error is. But I have to run the code to know the error, which might be time consuming. 
+
+Then I tried using IntelliJ, which is a big improvement. Besides, the highlights make it easier to read unlike the command line.
+
+2. It shows incompatible types in IntelliJ. In javascript there is no restriction like that. I can assign any type of data to a variable.
+
+The good side is by restricting the type, it reduces the change of error. For example, one thing that is likely to cause error in javascript is using string when there should be number. In java, if using IntelliJ, it will pop up without running the code, saving time.
+
+For a string, it still shows incompatible types. String can not be converted to int.
+
+3.The class file is 935b. I tried javascript: 77b. I assume the difference is more lines of code is needed for java class file.
+
+4.I would find a program language with a lot of pre-settings which are different from human daily language hard to learn. Also the language with super minimum code is hard to understand as well.
+
+The code that works like a real language is easy to understand modify. That means each word can be just grabbed and used instead of creating your own word from scratch.
+
+The weirdest thing I see in javascript is that “3 > 2 > 1”  returns “false”. One way to fix it is when parsing it, it should end up with “ ‘3 > 2’ && ‘2 > 1’ ”
+
+
+5.I can not speak about languages since I do not know that many kinds of languages. I have seen a lot complains about javascipript’s inconsistency, yet I have not reached the limit yet.

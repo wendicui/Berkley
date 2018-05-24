@@ -1,0 +1,17 @@
+1. 
+Size and Maximum value for Short is : 16, 2^(7)-1;
+Size and Maximum value for Integer is : 32, 2^(31)-1;
+Size and Maximum value for Long is : 64, 2^(63)-1;
+Size and Maximum value for Double is : 64, (2-2^(52))·2^(1023);
+
+It is from their primitive relatives that we can gain these data.
+	
+
+2. It will throw the error of " NullPointerException"; Since null is not an object, 	auto boxing can not work on it.
+
+3.LinkedList are good when adding/deleting elements are more demanding;For example if we want to store the relationships of people;
+
+ArrayList are good for element retrieval. It is more memory efficient compared to hash map and maintains the inserted order.If we want to record the arriving time of students, array list is a good choice;
+	HashMap store both key and value. It provides flexibility for naming keys compared to ArrayList, but takes more space and does not keep order. I used HashMap for homework because I use player name as key.
+
+4. It will be nice if when retrieving a element from collection/map, it can automatically detect what kind of object the element is. For example, if I make a array list where some elements are array list (generic does not work in this case I assume), it will enable me to use functions such as add once I retrieve the element that is also an array list ; but can throw array otherwise. 

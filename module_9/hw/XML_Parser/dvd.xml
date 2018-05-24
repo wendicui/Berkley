@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DVDS SYSTEM "dvd.dtd">
+<DVDS>
+  <DVD id="1">
+   <title>Witness</title>
+   <performers>
+    <performer>Harrison  Ford</performer>
+    <performer>Kelly  McGillis</performer>
+   </performers>
+   <discs>1</discs>
+   <price>7.99</price>
+   <release_year>1985</release_year>
+  </DVD>
+  <DVD id="2">
+   <title>Star Wars Episode V - The  Empire Strikes Back</title>
+   <performers>
+    <performer>Mark  Hamill</performer>
+    <performer>Harrison  Ford</performer>
+    <performer>Carrie  Fisher</performer>
+   </performers>
+   <discs>2</discs>
+   <price>14.95</price>
+   <release_year>1980</release_year>
+  </DVD>
+  <DVD id="3">
+   <title>Goodfellas</title>
+   <performers>
+    <performer>Robert De Niro</performer>
+    <performer>Ray Liotta</performer>
+    <performer>Joe Pesci</performer>
+   </performers>
+   <discs>2</discs>
+   <price>3.95</price>
+   <release_year>1990</release_year>
+  </DVD>
+  <DVD id="4">
+   <title>Sin City</title>
+   <performers>
+    <performer>Jesica Alba</performer>
+    <performer>Mickey Rourke</performer>
+    <performer>Rosario Dawson</performer>
+   </performers>
+   <discs>1</discs>
+   <price>3.95</price>
+   <release_year>2005</release_year>
+  </DVD>
+  <DVD id="5">
+   <title>Harry Potter and the Goblet of Fires</title>
+   <performers>
+    <performer>Emma Watson</performer>
+    <performer>Daniel Radcliffe</performer>
+    <performer>Rupert Grint</performer>
+   </performers>
+   <discs>2</discs>
+   <price>3.95</price>
+   <release_year>2005</release_year>
+  </DVD>
+  <DVD id="5">
+   <title>Harry Potter and the Goblet of Fires</title>
+   <performers>
+    <performer>Emma Watson</performer>
+    <performer>Daniel Radcliffe</performer>
+    <performer>Rupert Grint</performer>
+   </performers>
+   <discs>2</discs>
+   <price>3.95</price>
+   <release_year>2005</release_year>
+  </DVD>
+  <DVD id="6">
+   <title>The Hobbit: An Unexpected Journey</title>
+   <performers>
+    <performer>Martin Freeman</performer>
+    <performer>Ian Mckellen</performer>
+    <performer>Richard Armitage</performer>
+   </performers>
+   <discs>1</discs>
+   <price>3.95</price>
+   <release_year>2005</release_year>
+  </DVD>
+</DVDS>
